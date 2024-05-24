@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455830210359",
+    "project_id": "summertask-d29fc",
+    "storage_bucket": "summertask-d29fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455830210359:android:0394404c1f8feea4bffcb2",
+        "android_client_info": {
+          "package_name": "com.venom.studentsapp.studentsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXqbVLdT42KAYlc4jnkq7wWzWSV4mYlWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
