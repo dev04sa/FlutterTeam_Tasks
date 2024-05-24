@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538187655976",
+    "project_id": "summertask-149f3",
+    "storage_bucket": "summertask-149f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538187655976:android:8c9a7a14ac50d3107c3e1d",
+        "android_client_info": {
+          "package_name": "com.example.newstudentsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABDnQUC2vx3wcCRHUKKCMWZmgUaJ0oKFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
