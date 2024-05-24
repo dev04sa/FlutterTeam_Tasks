@@ -12,15 +12,13 @@ This Flutter Firebase CRUD (Create, Read, Update, Delete) app demonstrates how t
 - **Delete**: Remove items from the Firebase Firestore.
 
 ## Screenshots
-![WhatsApp Image 2024-05-21 at 12 52 30_65fd11ee](https://github.com/dev04sa/FlutterTeam_Tasks/assets/129666293/379b5e87-2ea1-4895-a953-59fd0f329878)
-
-
-https://github.com/dev04sa/FlutterTeam_Tasks/assets/129666293/0e0375dd-4e26-43cc-ae05-2210adbd66a7
 
 
 
 
+![Screenshot_2024-05-23-10-36-58-97_628fb5d708fa8f5cac3192221449a027](https://github.com/gaurav-33/FlutterTeam_Tasks/assets/164652539/2613c1d9-fbc7-4409-8c84-59f2df00f471)
 
+https://github.com/gaurav-33/FlutterTeam_Tasks/assets/164652539/e5fda1e6-79ca-46b3-b881-20de37e38336
 
 ## Contributing
 
