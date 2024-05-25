@@ -13,4 +13,9 @@
 
 
 
+![Screenshot 2024-05-25 234941](https://github.com/tanay4768/curd_operations_/assets/158015686/31f18c84-fb02-40c8-827b-e4194df81d3c)
+
+
+
+https://github.com/tanay4768/curd_operations_/assets/158015686/b27e77af-6be3-4558-ba07-32bfed7a1aa1
 
