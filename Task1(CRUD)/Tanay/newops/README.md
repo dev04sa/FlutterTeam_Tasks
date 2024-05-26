@@ -1,5 +1,6 @@
 # Flutter Firebase -crud_app
 ## Overview
+  This Flutter Firebase CRUD (Create, Read, Update, Delete) app demonstrates how to use Firebase as a backend for a mobile application. The app includes functionalities for managing a list of items with the ability to create, read, update, and delete items from a Firebase Firestore database.
 
 ## Features
 <ul>
