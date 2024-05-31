@@ -12,7 +12,9 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(title: Text("Student App",),
       centerTitle: true,
-      titleTextStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.black,fontSize: 22),),
+      backgroundColor: Colors.yellow,
+      titleTextStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.black,fontSize: 22),
+      ),
       body: SafeArea(
       child: SingleChildScrollView(
         child: Center(
