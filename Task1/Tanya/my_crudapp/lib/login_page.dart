@@ -104,7 +104,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 10,
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {},style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.red)),
               child: Text(
                 "Logout",
                 style: TextStyle(color: Colors.white),
@@ -218,10 +218,10 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Padding(padding: EdgeInsets.symmetric(horizontal: 5)),
-                ElevatedButton( onPressed: () {createData();} ,child: Text("Create",style: TextStyle(color: Colors.black),)),
-                ElevatedButton( onPressed: () {readData();} ,child: Text("Read",style: TextStyle(color: Colors.black),)),
-                ElevatedButton( onPressed: () {updateData();} ,child: Text("Update",style: TextStyle(color: Colors.black),)),
-                ElevatedButton( onPressed: () {deleteData();} ,child: Text("Delete",style: TextStyle(color: Colors.black),)),
+                ElevatedButton( onPressed: () {createData();},style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.green)) ,child: Text("Create",style: TextStyle(color: Colors.black),)),
+                ElevatedButton( onPressed: () {readData();} ,style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.blue)),child: Text("Read",style: TextStyle(color: Colors.black),)),
+                ElevatedButton( onPressed: () {updateData();},style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.yellow)) ,child: Text("Update",style: TextStyle(color: Colors.black),)),
+                ElevatedButton( onPressed: () {deleteData();},style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange)) ,child: Text("Delete",style: TextStyle(color: Colors.black),)),
               ],
               )],
                ),
