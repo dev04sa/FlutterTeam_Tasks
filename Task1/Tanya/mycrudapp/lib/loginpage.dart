@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
 
   createData(){
     print("Created");
-  DocumentReference documentReference= FirebaseFirestore.instance.collection("MyStudents").doc("studentName");
+  DocumentReference documentReference= FirebaseFirestore.instance.collection("MyStudents").doc(studentName);
 
     Map<String, dynamic> MyStudents={
      " studentName":studentName,
@@ -50,6 +50,8 @@ class _LoginPageState extends State<LoginPage> {
 
   readData(){
     print("Read");
+   
+  
     
   }
 
