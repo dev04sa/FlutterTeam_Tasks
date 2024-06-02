@@ -1,0 +1,1 @@
+ E:\\myapps\\newops\\.dart_tool\\flutter_build\\5cffce8b863c30060bf9a5c5a9bf8df5\\native_assets.yaml: 
