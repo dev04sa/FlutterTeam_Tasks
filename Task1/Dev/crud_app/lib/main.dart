@@ -1,6 +1,25 @@
-import 'package:flutter/material.dart';
+import 'dart:io';
 
-void main() {
+import 'package:crud_app/screens/forgot.dart';
+import 'package:crud_app/screens/homepage.dart';
+import 'package:crud_app/screens/loginpage.dart';
+import 'package:crud_app/screens/wrapper.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: const FirebaseOptions(
+              apiKey: 'AIzaSyD6a7JPrm9fI5AgEgROW0fhMOIVev6bhSs',
+              appId: '1:75707005549:android:8abf57fa798ecd00219d64',
+              messagingSenderId: '75707005549',
+              projectId: 'crud-new-72df4',
+              storageBucket: 'crud-new-72df4.appspot.com'))
+      : await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -10,7 +29,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -31,7 +51,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Wrapper(),
     );
   }
 }
