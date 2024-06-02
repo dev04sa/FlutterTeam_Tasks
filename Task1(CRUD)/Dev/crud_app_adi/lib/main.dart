@@ -1,7 +1,17 @@
-import 'package:crud_app_adi/MyHomePage.dart';
+import 'package:crud_app_adi/Screens/HomePage.dart';
+import 'package:crud_app_adi/Screens/LoginPage.dart';
+import 'package:crud_app_adi/Screens/SignUpPage.dart';
+import 'package:crud_app_adi/Utils/routes.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -14,6 +24,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Database Demo',
       debugShowCheckedModeBanner: false,
+      initialRoute: MyRoutes.loginPage,
+      routes: {
+        MyRoutes.loginPage: (context) => LoginPage(),
+        MyRoutes.homePage: (context) => HomePage(),
+        MyRoutes.signUpPage: (context) => SignUpPage()
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -33,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: LoginPage(),
     );
   }
 }
