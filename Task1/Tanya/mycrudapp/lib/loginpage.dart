@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 
 class LoginPage extends StatefulWidget {
@@ -35,16 +35,7 @@ class _LoginPageState extends State<LoginPage> {
   createData(){
     print("Created");
 
-    DocumentReference documentReference= FirebaseFirestore.instance.collection("MyStudents").doc("studentName");
-
-    Map<String, dynamic> MyStudents={
-     " studentName":studentName,
-     "studentId":studentId,
-     "studyProgram":studyProgram,
-     "CGPA":studentCGPA,
-    };
-
-    documentReference.set(MyStudents).whenComplete(() {print("$studentName created");});
+  
   }
 
   readData(){
