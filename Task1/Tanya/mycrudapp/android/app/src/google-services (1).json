@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1049448241308",
+    "project_id": "college-projects-b8a44",
+    "storage_bucket": "college-projects-b8a44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049448241308:android:26fcf6b74ac468f5b97559",
+        "android_client_info": {
+          "package_name": "com.example.mycrudapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsozfZnR-ULZd97lfODdzKbjlIhB_i1CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
