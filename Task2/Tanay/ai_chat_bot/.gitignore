@@ -9,7 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
-.env
+/Task2\Tanay\ai_chat_bot\.env
 
 # IntelliJ related
 *.iml
